@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: YJ-HelloWorld-Zookeeper
+  cloud:
+    zookeeper:
+      connect-string: 172.18.3.28:2181
+      discovery:
+        enable: true
+loggin:
+  level:
+    org.apache.zookeeper.ClientCnxn: WARN
+
+server:
+  port: 9999
