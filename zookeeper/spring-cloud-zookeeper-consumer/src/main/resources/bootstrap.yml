@@ -1,7 +1,7 @@
 spring:
   cloud:
     zookeeper:
-      connect-string: 172.18.3.28:2181
+      connect-string: 127.0.0.1:2181
       discovery:
         enable: false
 
