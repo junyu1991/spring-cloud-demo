@@ -3,12 +3,17 @@ spring:
     name: YJ-HelloWorld-Zookeeper
   cloud:
     zookeeper:
-      connect-string: 127.0.0.1:2181
       discovery:
         enable: true
 loggin:
   level:
     org.apache.zookeeper.ClientCnxn: WARN
 
-server:
-  port: 9999
+rmi:
+  service:
+    name: HelloRmi
+    port: 9999
+    host: 127.0.0.1
+
+
+
