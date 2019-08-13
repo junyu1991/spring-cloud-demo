@@ -21,6 +21,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
+            <!-- 若只想作为一个java项目启动，比如本例中只想启动rmi并注册服务，可使用 spring-boot-starter-->
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
